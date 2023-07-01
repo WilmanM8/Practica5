@@ -1,0 +1,37 @@
+{
+    "controlador.ed.lista.ListaEnlazada": {
+        "cabeza": {
+            "dato": {
+                "@class": "modelo.Genero",
+                "id": 1,
+                "claseGenero": "Terror",
+                "estado": true
+            },
+            "siguiente": {
+                "dato": {
+                    "@class": "modelo.Genero",
+                    "id": 2,
+                    "claseGenero": "Comedia",
+                    "estado": true
+                },
+                "siguiente": {
+                    "dato": {
+                        "@class": "modelo.Genero",
+                        "id": 3,
+                        "claseGenero": "Accion",
+                        "estado": true
+                    },
+                    "siguiente": {
+                        "dato": {
+                            "@class": "modelo.Genero",
+                            "id": 4,
+                            "claseGenero": "Ciencia Ficcion",
+                            "estado": true
+                        }
+                    }
+                }
+            }
+        },
+        "size": 4
+    }
+}
